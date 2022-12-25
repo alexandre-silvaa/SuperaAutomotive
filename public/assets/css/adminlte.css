@@ -1,0 +1,134 @@
+.barra-superior{
+  background-color: rgba(0, 0, 0, 0.08);
+  width: 100%;
+  height: 40px;
+  position: absolute;
+}
+.box-central{
+  position: absolute;
+  left: 50%;
+  top: 47%;
+  transform: translate(-50%,-50%);
+  -ms-transform:translate(-50%,-50%);
+  color: #FFF;
+  text-align: center;
+}
+.btn-circle{
+    border-radius: 50%;
+}
+
+.btn-light {
+  color: #212529;
+  background-color: #ccc;
+  border-color: #cbcbcb;
+}
+
+.btn-light:hover{
+  color: #212529;
+  background-color: #999;
+  border-color: #989898;
+}
+
+.campoNumeros{
+    display: none;
+}
+
+.campoObservacao{
+    display: none;
+}
+
+.campoOculto{
+  display: none;
+}
+
+.card-header {
+  padding: 0.25rem 1.25rem;
+  margin-bottom: 1px solid #ccc;
+  background-color: rgba(0, 0, 0, 0.05);
+  border-bottom: 0 solid rgba(0, 0, 0, 0.125);
+}
+
+label {
+  display: inline-block;
+  margin-bottom: 0.2rem;
+}
+
+input[type="file"] {
+    display: none;
+}
+.file > label{
+    padding: 5px 10px;
+    width: 100%;
+    background-color: #00c0ef;
+    color: #FFF;
+    text-align: center;
+    display: block;
+    cursor: pointer;
+    border-radius: 6px;
+}
+
+hr {
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+  border: 0;
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.jumbotron {
+  padding: 0.5rem 0.5rem 0.15rem 0.5rem;
+  margin-bottom: 0.5rem;
+  background-color: #e9ecef;
+  border-radius: 0.3rem;
+}
+
+.navText{
+  padding-top: 8px;
+  color:  #FFF;
+}
+
+p {
+  margin-bottom: 0.5rem;
+}
+
+.tableFixHead{
+    overflow-y: auto; 
+    overflow-x: ellipsis;
+    word-break: keep-all;
+    /*white-space:nowrap;*/
+}
+.tableFixHead thead th{ 
+    position: sticky; top: 0; 
+}
+
+table tbody tr td{
+    font-size: 0.75rem;
+}
+
+.table .thead-danger th {
+  color: #FFF;
+  background-color: #dc3545;
+  border-color: #dee2e6;
+}
+
+.table .thead-white th {
+  color: #000;
+  background-color: #FFF;
+}
+
+.table th {
+  background-color: #d8d8d8;
+  font-size:  0.85rem;
+}
+
+ul li .nav-item a{
+  padding-left: 25px;
+  font-size: 0.9rem;
+}
+
+ul  li ul li .nav-item a{
+  padding-left: 35px;
+}
+
+.hiddenRow {
+    padding: 0 !important;
+}
